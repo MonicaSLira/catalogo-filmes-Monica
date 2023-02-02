@@ -6,7 +6,7 @@ data class Inventario (
     val id: Int,
     val filme : Filme,
     val loja : Int,
-    val dataAtualizaçao: LocalDateTime
+    val dataAtualizacao: LocalDateTime
 
 )
 

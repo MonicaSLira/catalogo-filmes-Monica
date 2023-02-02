@@ -10,7 +10,7 @@ data class Endereco(
     val cidade : Cidade,
     val cep : String,
     val telefone : String,
-    val dataAtualizaçao: LocalDateTime
+    val dataAtualizacao: LocalDateTime
 
 
 )

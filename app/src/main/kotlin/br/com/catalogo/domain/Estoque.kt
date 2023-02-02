@@ -6,5 +6,5 @@ data class Estoque(
     val id: Int,
     val name: String,
     val endereco: String,
-    val dataAtualizaçao: LocalDateTime
+    val dataAtualizacao: LocalDateTime
 )

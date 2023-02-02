@@ -10,5 +10,5 @@ data class Aluguel(
     val idCliente: Int,
     val dataRetorno: LocalDateTime,
     val idFunc: Int,
-    val dataAtualizaçao: LocalDateTime
+    val dataAtualizacao: LocalDateTime
 )

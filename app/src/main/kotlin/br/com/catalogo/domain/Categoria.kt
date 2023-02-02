@@ -5,5 +5,5 @@ import java.time.LocalDateTime
 data class Categoria (
     val filme : Filme,
     val categoria: Categoria,
-    val dataAtualizaçao: LocalDateTime
+    val dataAtualizacao: LocalDateTime
 )

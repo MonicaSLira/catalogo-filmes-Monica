@@ -14,7 +14,7 @@ data class Filme (
     val custoAdc: Double,
     val classificacao: String,
     val caracteristicas: String,
-    val dataAtualizaçao: LocalDateTime
+    val dataAtualizacao: LocalDateTime
 )
 
 

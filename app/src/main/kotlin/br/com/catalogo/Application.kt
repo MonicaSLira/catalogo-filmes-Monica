@@ -1,9 +1,12 @@
 package br.com.catalogo
 
+
 import br.com.catalogo.domain.*
 import io.micronaut.runtime.Micronaut.run
+
 import java.time.LocalDateTime
 
+/**
 fun validarPaís(){
 }
 fun validarAtor(){
@@ -12,12 +15,11 @@ fun validarFilme(){
 }
 fun validarIdioma(){
 }
-
-
+*/
 fun main(args: Array<String>) {
 	run(*args)
 
-	val brasil = País(
+	/**val brasil = País(
 		id = 1,
 	    name ="Brasil",
 		dataAtualizaçao = LocalDateTime.now()
@@ -75,7 +77,6 @@ fun main(args: Array<String>) {
 	)
 
 	println(topGun)
-
-
+*/
 }
 
