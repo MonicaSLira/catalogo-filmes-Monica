@@ -1,4 +1,10 @@
 package br.com.catalogo.services
 
-class CategoryService {
+import br.com.catalogo.domain.Category
+
+class CategoryService (
+){
+    fun save(Category : Category){
+        println("salvo em memória")
+    }
 }
